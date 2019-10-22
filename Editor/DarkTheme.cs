@@ -36,7 +36,7 @@ public static class DarkTheme
             ApplyTheme();
         }
     }
-    private static void InitAsync()
+    private static async void InitAsync()
     {
         await Task.Delay(TimeSpan.FromSeconds(0.1f));
         if (File.Exists(darkMarker))
