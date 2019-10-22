@@ -1,10 +1,9 @@
 {
-  "name": "com.instance-id.darktheme",
-  "version": "0.0.4",
+  "name": "com.instanceid.darktheme",
   "displayName": "Dark Theme",
-  "description": "Legal dark theme for personal license",
+  "version": "0.0.5",
   "unity": "2019.3",
-  "unityRelease": "0b1",
+  "description": "Legal dark theme for personal license",
   "keywords": [
     "dark",
     "theme",
@@ -14,6 +13,5 @@
   "author": {
     "name": "Instance.id",
     "url": "http://instance.id"
-  },
-  "type": "tool"
+  }
 }
