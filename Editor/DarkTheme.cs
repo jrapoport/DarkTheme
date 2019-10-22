@@ -38,7 +38,7 @@ public static class DarkTheme
     }
     private static void InitAsync()
     {
-        // await Task.Delay(TimeSpan.FromSeconds(0.1f));
+        await Task.Delay(TimeSpan.FromSeconds(0.1f));
         if (File.Exists(darkMarker))
         {
             File.Delete(darkMarker);
@@ -55,7 +55,6 @@ public static class DarkTheme
     private static async void ApplyTheme()
     {
         await Task.Delay(TimeSpan.FromSeconds(0.1f));
-
         foreach (var sheet in Resources.FindObjectsOfTypeAll<StyleSheet>())
         {
             if (ContainsInsensitive(sheet.name, "Dark"))
